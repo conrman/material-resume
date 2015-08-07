@@ -1,0 +1,56 @@
+@media print {
+  :root {
+    font-size: 12px !important;
+
+    * {
+      overflow: visible;
+    }
+  }
+
+  .print {
+    &--hidden {
+      display: none;
+    }
+  }
+
+  // Page
+  .page-content {
+    padding: 0 !important;
+  }
+
+  h1, h2, h3, h4, h5, h6, p {
+    // margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  // Profle
+  .profile {
+    height: 0 !important;
+
+    .profile-name,
+    .profile-description {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+  }
+
+  .profile-about {
+    .mdl-cell { 
+      margin: 0 !important;
+      // padding: 0 !important;
+    }
+
+    [class*="profile-info"] {
+      text-indent: auto;
+      position: static;
+    }
+  }
+
+
+  // Icons
+  .material-icons {
+    display: none !important;
+    float: left;
+  }
+
+} // @media print

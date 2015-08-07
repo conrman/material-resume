@@ -1,0 +1,52 @@
+body {
+  background: whitesmoke;
+}
+
+a {
+  color: lighten($mdl-blue, 7%);
+}
+
+.text {
+
+  // Alignment
+  &--center {
+    text-align: center;
+  }
+  &--right {
+    text-align: right;
+  }
+  &--left {
+    text-align: left;
+  }
+
+  // Colors
+  &--grey { color: darken(grey, 15%) !important; }
+  &--blue { color: $mdl-blue !important; }
+  &--white { color: #fff !important; }
+  &--black { color: #000 !important; }
+  &--facebook { color: $color-facebook !important; }
+  &--twitter { color: $color-twitter !important; }
+  &--pinterest { color: $color-pinterest !important; }
+  &--googleplus { color: $color-googleplus !important; }
+}
+
+.float {
+  &--none {
+    float: none;
+  }
+  &--right {
+    float: right !important;
+  }
+  &--left {
+    float: left;
+  }
+}
+
+.no-margin {
+  &--left {
+    margin-left: 0;
+  }
+  &--right {
+    margin-right: 0;
+  }
+}

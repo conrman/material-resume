@@ -1,0 +1,49 @@
+.profile {
+    color: #fff;
+
+  &-image {
+    background: url(../images/profile.jpeg);
+    background-size: cover;
+    box-shadow: inset 0 -200px 200px -160px #000;
+    height: 250px;
+  }
+
+  &-name {
+    padding-top: 190px;
+    margin: 0 !important;
+    font-weight: bold;
+  }
+
+  &-name,
+  &-description {
+    padding-left: 25px;
+  }
+
+  &-info {
+    padding-top: 1em;
+    &__about,
+    &__phone,
+    &__email,
+    &__skills {
+      &-title {
+        position: absolute;
+        text-indent: -99999px;
+      }
+    }
+  }
+
+  &__skills {
+    &-text {
+      margin-top: 5px;
+    }
+  }
+
+  .mdl-grid,
+  .mdl-cell {
+    padding-right: 0;
+  }
+  .mdl-slider,
+  .mdl-slider {
+    color: white !important;
+  }
+}

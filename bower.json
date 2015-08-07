@@ -1,0 +1,23 @@
+{
+  "name": "package",
+  "version": "0.0.0",
+  "dependencies": {
+    "modernizr": "~2.8.3",
+    "normalize-css": "~3.0.2",
+    "material-design-lite": "~1.0.0",
+    "material-design-icons": "~2.0.0",
+    "fontawesome": "~4.3.0"
+  },
+  "overrides": {
+     "fontawesome": {
+      "main": [
+        "./scss/font-awesome.scss",
+        "./fonts/fontawesome-webfont.eot",
+        "./fonts/fontawesome-webfont.svg",
+        "./fonts/fontawesome-webfont.ttf",
+        "./fonts/fontawesome-webfont.woff",
+        "./fonts/fontawesome-webfont.woff2"
+        ]
+      }
+  }
+}
